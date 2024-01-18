@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function Overview() {
+export default function Overview() {
   return (
     <div className="flex justify-around">
       <Image
