@@ -8,7 +8,11 @@ import Button from "@mui/material/Button";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" className="bg-gray-700">
+      <AppBar
+        position="static"
+        className="text-white bg-gray-700 "
+        color="inherit"
+      >
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Philip Stoyanov
