@@ -8,9 +8,11 @@ import Button from "@mui/material/Button";
 export default function ButtonAppBar() {
   return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" sx={{ bgcolor: "black" }}>
+      <AppBar position="static" sx={{ bgcolor: "indigo" }}>
         <Toolbar component="div" sx={{ justifyContent: "end" }}>
-          <Button color="inherit">Overview</Button>
+          <Button className="hidden sm:block" color="inherit">
+            Overview
+          </Button>
           <Button color="inherit">Education</Button>
           <Button color="inherit">Projects</Button>
           <Button color="inherit">Skills</Button>
